@@ -6,6 +6,7 @@
   --primary: #3d3fb8;
   --accent: #4a7a00;
   --line: #dfe2f0;
+  --on-primary: #ffffff;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,6 +18,7 @@
     --primary: #c6f432;
     --accent: #c6f432;
     --line: #2a2e52;
+    --on-primary: #1c2600;
   }
 }
 
@@ -65,3 +67,16 @@ footer {
   color: var(--muted);
   font-size: 0.9rem;
 }
+
+.button {
+  display: inline-block;
+  padding: 12px 22px;
+  border-radius: 999px;
+  background: var(--primary);
+  color: var(--on-primary);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+ol { padding-left: 1.2em; }
+code { overflow-wrap: anywhere; font-size: 0.85em; }
